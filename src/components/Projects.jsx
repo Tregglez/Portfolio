@@ -5,7 +5,7 @@ const Projects = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <div className="px-5 w-full flex flex-col bg-cover bg-light-bg">
+    <div className="px-5 pb-11 w-full flex flex-col bg-cover bg-light-bg">
 
       {/* Title */}
       <div className="relative">
@@ -36,7 +36,7 @@ const Projects = () => {
             <img src={projectData[activeIndex].image} alt={projectData[activeIndex].title} />
               <p className='px-2 py-1 mx-10 mt-5 border-solid border-2 border-gray-400 rounded-md'>{projectData[activeIndex].tech_stack}</p>
             <p className='py-5 text-center small-text'>{projectData[activeIndex].description} <br /><span className='font-bold'>{projectData[activeIndex].warning}</span></p>
-            <div className='py-5'>
+            <div className='py-1'>
               {projectData[activeIndex].github && (
                 <a href={projectData[activeIndex].github} className='px-2 py-1 mx-10 border-solid border-2 border-gray-400 rounded-md'>GitHub</a>
               )}
