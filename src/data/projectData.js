@@ -1,10 +1,10 @@
-const projectInformation = [
+const projectData = [
   {
     id: 1,
     title: "Personal Portfolio",
     micro_description: "My personal portfolio is a...",
     description: "My personal portfolio is a website designed to showcase my front-end development skills and projects. It was build using Vite, a fast build tool for modern web apps, along with React, a popular Javascript library for building user interfaces, and Tailwind, a utility-first CSS framework that allows for easy and responsive styling. The reult is a clean and visually appealing portfolio that reflects my profciency in modern front-end development technologies.",
-    image: "/project-imagesPortfolio Mockup.jpg",
+    image: "/project-images/Portfolio Mockup.jpg",
     tech_stack: "Vite - React - Tailwind",
     github: "https://github.com/Tregglez/portfolio",
     demo: ""
@@ -16,7 +16,7 @@ const projectInformation = [
     micro_description: 'The BarsBestFriend app is a...',
     description: 'The BarsBestFriend app is a mobile web application that helps pet owners find dog-friendly establishments across the country, developed as a collaborative effort to deliver a functional and user-friendly solution. The app was built using Ruby on Rails, a popular web application framework that enables rapid development and deployment of scalable web applications. With this technology stack, BarsBestFriend provides users with a seamless and intuitive experience, making it the perfect companion for pet owners on the go.',
     warning: '- Please view on either mobile, or inspect element on mobile -',
-    image: '/public/project-images/Casual iPhone Mockup.jpg',
+    image: '/project-images/Casual iPhone Mockup.jpg',
     tech_stack: 'Ruby on Rails',
     github: 'https://github.com/StephCald/Bar-Best-Friend',
     demo: 'http://www.barsbestfriend.com/'
@@ -34,4 +34,4 @@ const projectInformation = [
   },
 ];
 
-export default projectInformation;
+export default projectData;
