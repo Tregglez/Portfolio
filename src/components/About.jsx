@@ -54,7 +54,41 @@ const About = () => {
           <img src={circleButton7} alt="sql skill" className='circle-image sm-screen' />
         </div>
 
-        
+        {/* Contact Me */}
+        <div className='flex flex-col mb-18 mx-auto w-full'>
+          <div className='flex justify-center items-center'>
+            <form 
+              action='https://getform.io/f/ed64f096-ee74-402e-8275-6b5ec255d6eb'
+              method='POST'
+              className='flex flex-col w-full md:w-7/12'
+            >
+              <input 
+                type='text'
+                name='name'
+                placeholder='Name'
+                className='p-2 w-full border-2 rounded-md focus:outline-none border-gray-300 border-solid'
+              />
+              <input 
+                type='text' 
+                name='email'
+                placeholder='Email'
+                className='my-2 p-2 border-2 rounded-md focus:outline-none border-gray-300 border-solid'
+              />
+              <textarea
+                name='message'
+                placeholder='Message'
+                rows='10'
+                className='mb-4 p-2 border-2 rounded-md focus:outline-none border-gray-300 border-solid'
+              />
+              <button
+                type='submit'
+                className='text-center inline-block px-8 py-3 w-full mb-8 text-base font-medium rounded-md bg-white border-gray-300 border-solid border-2 text-gray-500'
+              >
+                Work With Me!
+              </button>
+            </form>
+          </div>
+        </div>
       </div>
     </div>
 
