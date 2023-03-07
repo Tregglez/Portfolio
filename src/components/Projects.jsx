@@ -1,4 +1,5 @@
 import React from 'react'
+import projectInformation from '../data/projectData'
 
 const Projects = () => {
   return (
@@ -12,7 +13,9 @@ const Projects = () => {
 
       {/* Projects */}
       <div>
-        
+        <div>
+
+        </div>
       </div>
     </div>
   )
